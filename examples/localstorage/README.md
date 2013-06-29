@@ -19,16 +19,17 @@ Test case 1
 
   Message length / delay
 
-  100 => 3ms  
+  100 => 2ms  
   1000 => 3ms  
   10000 => 7ms  
   
 - Internet Explorer 10
 
-  100 => 36ms  
-  1000 => 41ms  
-  10000 => 65ms-130ms  
-
+  100 => 35ms  
+  1000 => 40ms  
+  10000 => 72ms  
+  
+  
 Test case 2
 -----------
 
@@ -41,14 +42,14 @@ Test case 2
   Message length / delay
   
   100 => 2ms  
-  1000 => 3ms  
-  10000 => 7ms  
+  1000 => 2ms  
+  10000 => 4ms
 
 - Internet Explorer 10
 
-  100 =>  35 ms  
-  1000 => 50 ms - 60 ms (growing)  
-  10000 => 159 ms
+  100 => 33ms  
+  1000 => 37ms  
+  10000 => 69ms
   
 * Almost not difference in IE between removing the item once it's received.
 
@@ -64,12 +65,12 @@ Test case 3:
 
   Message length / delay
   
-  100 => 3ms  
-  1000 => 4ms  
-  10000 => 10ms  
+  100 => 1ms  
+  1000 => 2ms  
+  10000 => 2ms  
 
 - Internet Explorer 10
 
-  100 => 32 ms  
-  1000 => 33 ms  
-  10000 => 35 ms  
+  100 => 34ms  
+  1000 => 32ms  
+  10000 => 34ms
