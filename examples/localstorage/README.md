@@ -51,8 +51,6 @@ Test case 2
   1000 => 37ms  
   10000 => 69ms
   
-* Almost not difference in IE between removing the item once it's received.
-
 
 Test case 3:
 ------------
