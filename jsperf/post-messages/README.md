@@ -8,6 +8,7 @@ Overview
 We want to see the number of messages we can send depending on the size of the message, and how that evolves depending on the browser.
 
 [Run test/See results](http://jsperf.com/postmessage-test23/5)
+[Run test/See results](http://jsperf.com/postmessage-messages-length)
 
 Comments
 --------
