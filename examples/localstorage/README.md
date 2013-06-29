@@ -32,7 +32,7 @@ Test case 1
 Test case 2
 -----------
 
-[x] 10 messages / second
+[x] 10 messages / second  
 [-] updating same item  
 [-] removeItem after onstorage  
 
@@ -57,7 +57,7 @@ Test case 3:
 ------------
 
 [x] 10 messages / second    
-[x] updating same item
+[x] updating same item  
 [-] removeItem after onstorage
 
 - Chrome 29.0.1535.3 dev
