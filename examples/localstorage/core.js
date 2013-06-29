@@ -83,14 +83,14 @@ Spotify.Example = (function(namespace) {
         },
 
         /**
-         * @method _writeRandomItem 
+         * @method _writeRandomItem
          * @private
          */
         _writeRandomItem: function() {
 
             var itemKey = 'key-' + this._randomString(5),
                 contentObject = {
-                    body: this._randomString(this._params.size),
+                    body: this._message,
                     timestamp: this.getTimestamp()
                 };
 
@@ -147,6 +147,9 @@ Spotify.Example = (function(namespace) {
          */
         send: function(params, onMessageBack) {
             this._processParams(params);
+
+            // Prefill the message object
+            this._message = this._randomString(this._params.size);
 
             var self = this;
             window.setInterval(function() {
