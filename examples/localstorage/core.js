@@ -4,6 +4,7 @@ var Spotify = (Spotify || {});
 /**
  * @class {Spotify.Example.LocalStorage}
  * @author Tomas Perez <tom@0x101.com>
+ * @see Readme.md
  */
 Spotify.Example = (function(namespace) {
 
@@ -93,6 +94,11 @@ Spotify.Example = (function(namespace) {
                     timestamp: this.getTimestamp()
                 };
 
+            /*
+             * A different approach could reuse the same item key, same differences
+             * have been found between browsers for that strategy.
+             * @see Readme.md
+             */
             window.localStorage.setItem(itemKey, JSON.stringify(contentObject));
 
         },
@@ -111,7 +117,7 @@ Spotify.Example = (function(namespace) {
             /**
              * @param {Event} storageEvent
              */
-            window.onstorage = function(storageEvent) {
+            window.addEventListener('storage', function(storageEvent) {
 
                 var currentTime = self.getTimestamp();
 
@@ -124,9 +130,12 @@ Spotify.Example = (function(namespace) {
 
                     onMessageReceived(milliseconds);
 
+                    // Another strategy possible is to remove the item after it has been received
+                    // localStorage.removeItem(storageEvent.key);
+
                 }
 
-            };
+            });
 
         },
 
