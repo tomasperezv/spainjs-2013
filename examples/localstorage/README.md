@@ -7,6 +7,10 @@ Overview
 
 We want to analyze the time to receive the onstorage notification across tabs, between different browsers.
 
+* Messages / second: num of messages we write per second  
+* Updating same item: reusing same item for sending messages vs creating new items for each.  
+* Remove after onstorage: if we are creating new items, do we remove them once it's received?
+
 
 Test case 1
 -----------
