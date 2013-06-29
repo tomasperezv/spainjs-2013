@@ -8,7 +8,7 @@ Hybrid apps is a hot topic nowadays, and we will explain how our architecture ab
 
 Authors
 =======
-@JMPerez [https://github.com/JMPerez]  
-@tomasperezv [https://github.com/tomasperezv]
+[@JMPerez] (https://github.com/JMPerez)  
+[@tomasperezv] (https://github.com/tomasperezv)
 
 
