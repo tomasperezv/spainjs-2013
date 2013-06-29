@@ -6,5 +6,21 @@
         <title>localStorage notification delay</title>
     </head>
     <body>
+
+      <h3>Sending messages</h3>
+      <a href="./notifier.html" target="_blank">Start</a>
+
+      <script>
+        window.onload = function() {
+
+          // Send messages on interval
+          Spotify.Example.LocalStorage.send({
+            size: 1000,
+            numberOfMessages: 10 /* The number of messages that it will send per second */
+          });
+
+        };
+      </script>
+
     </body>
 </html>

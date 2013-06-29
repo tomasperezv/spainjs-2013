@@ -3,8 +3,51 @@
     <head>
         <script src="./core.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>localStorage notification delay - notifier</title>
+        <title>localStorage notification delay</title>
     </head>
     <body>
+
+      <h3>Receiving messages and computing the delay</h3>
+      <h2 id="result"></h2>
+
+      <script>
+        window.onload = function() {
+
+          localStorage.clear();
+
+          var resultElement = document.getElementById('result');
+
+          var results = [];
+
+          /**
+           * @param {Integer} milliseconds
+           * @method computeAverage
+           * @public
+           */
+          var computeAverage = function(milliseconds) {
+
+            results.push(milliseconds);
+            var totalElements = results.length,
+                total = 0;
+
+            for (var i = 0; i < totalElements; i++) {
+              total += results[i];
+            }
+
+            return parseInt(total / totalElements);
+
+          };
+
+          // Send a message every 300 milliseconds,
+          // Will update the user interface with the time it takes
+          // for the message to be sent across different tabs,
+          // depending on the message size.
+          Spotify.Example.LocalStorage.listen(function(milliseconds) {
+            resultElement.innerHTML = computeAverage(milliseconds) + ' ms';
+          });
+
+        };
+      </script>
+
     </body>
 </html>
