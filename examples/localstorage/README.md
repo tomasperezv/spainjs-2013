@@ -11,8 +11,8 @@ We want to analyze the time to receive the onstorage notification across tabs, b
 Test case 1
 -----------
 
-[x] 10 messages / second
-[-] updating same item
+[x] 10 messages / second  
+[-] updating same item  
 [x] removeItem after onstorage
 
 - Chrome 29.0.1535.3 dev
@@ -33,9 +33,8 @@ Test case 2
 -----------
 
 [x] 10 messages / second
-[x] Chrome 29.0.1535.3 dev
-[-] updating same item
-[-] removeItem after onstorage
+[-] updating same item  
+[-] removeItem after onstorage  
 
 - Chrome 29.0.1535.3 dev
 
@@ -57,9 +56,9 @@ Test case 2
 Test case 3:
 ------------
 
-[x] 10 messages / second
-[x] Chrome 29.0.1535.3 dev
+[x] 10 messages / second    
 [x] updating same item
+[-] removeItem after onstorage
 
 - Chrome 29.0.1535.3 dev
 
