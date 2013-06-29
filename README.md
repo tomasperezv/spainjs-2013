@@ -11,4 +11,8 @@ Authors
 [@JMPerez] (https://github.com/JMPerez)  
 [@tomasperezv] (https://github.com/tomasperezv)
 
+Reference
+=========
+[HTML5 Web Messaging] (http://dev.w3.org/html5/postmsg/)
+
 
