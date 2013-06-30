@@ -13,6 +13,7 @@ Authors
 
 Reference
 =========
-[HTML5 Web Messaging] (http://dev.w3.org/html5/postmsg/)
+[HTML5 Web Messaging] (http://dev.w3.org/html5/postmsg/)  
+[Web Storage] (http://www.w3.org/TR/webstorage/)
 
 
