@@ -14,6 +14,6 @@ Authors
 Reference
 =========
 [HTML5 Web Messaging] (http://dev.w3.org/html5/postmsg/)  
-[Web Storage] (http://www.w3.org/TR/webstorage/)
-
-
+[Web Storage] (http://www.w3.org/TR/webstorage/)  
+[Chrome prerender] (https://developers.google.com/chrome/whitepapers/prerender)  
+[Firefox prefetch] (https://developer.mozilla.org/en/Link_prefetching_FAQ)  
