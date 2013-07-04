@@ -6,6 +6,8 @@ Code examples and resources, for 'Cross-platform application development using w
 This talk presents how Spotify uses web technologies to develop and maintain key features in the different platforms .
 Hybrid apps is a hot topic nowadays, and we will explain how our architecture abstracts a web developer from the platform, making it possible to share code across multiple devices.
 
+In the second part of the talk we will describe the architecture of the Spotify Embedded Platform, that allows external developers to include spotify entities inside their webpages, including a technology for remote controlling spotify clients, the webplayer and the desktop client.
+
 Authors
 =======
 [@JMPerez] (https://github.com/JMPerez)  
