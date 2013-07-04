@@ -13,7 +13,13 @@ Authors
 
 Reference
 =========
+[Spotify Apps API] (https://developer.spotify.com/technologies/apps/)  
+[Spotify Apps Tutorial] (https://github.com/spotify/apps-tutorial)  
 [HTML5 Web Messaging] (http://dev.w3.org/html5/postmsg/)  
 [Web Storage] (http://www.w3.org/TR/webstorage/)  
+[IE8 support for html5 and postmessages] (http://blogs.msdn.com/b/ieinternals/archive/2009/09/16/bugs-in-ie8-support-for-html5-postmessage-sessionstorage-and-localstorage.aspx)  
+[Is local storage performance a problem?] (http://calendar.perfplanet.com/2012/is-localstorage-performance-a-problem/)  
+[HTML5 Hard Disk Filler] (http://feross.org/fill-disk/)  
+[window.postMessage mozilla documentation] (https://developer.mozilla.org/en-US/docs/Web/API/window.postMessage)  
 [Chrome prerender] (https://developers.google.com/chrome/whitepapers/prerender)  
 [Firefox prefetch] (https://developer.mozilla.org/en/Link_prefetching_FAQ)  
