@@ -1,0 +1,3 @@
+[submodule "examples/spotify-apps-tutorial"]
+	path = examples/spotify-apps-tutorial
+	url = git@github.com:spotify/apps-tutorial.git
