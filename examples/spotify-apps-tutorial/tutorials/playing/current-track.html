@@ -1,0 +1,32 @@
+<div class="section">
+    <h1>Get the currently playing track</h1>
+    <p class="description">Retrieves what track is being played.</p>
+    <!-- TODO: Add an observer to see when the track changes. -->
+
+    <h3>The Javascript</h3>
+    <div id="js"></div>
+
+    <h3>The HTML</h3>
+    <div id="html"></div>
+
+    <h3>Live Example</h3>
+    <div class="html-snippet" data-container="html">
+        <div id="np"></div>
+    </div>
+    <script type="script/snippet" data-container="js">
+        var sp = getSpotifyApi();
+        var models = sp.require("$api/models");
+        var player = models.player;
+
+        // Get the track that is currently playing
+        var currentTrack = player.track;
+
+        var currentHTML = document.getElementById('np');
+        // if nothing currently playing
+        if (currentTrack == null) {
+            currentHTML.innerHTML = 'No track currently playing';
+        } else {
+            currentHTML.innerHTML = 'Now playing: ' + currentTrack;
+        }
+    </script>
+</div>

@@ -1,0 +1,31 @@
+<div class="section">
+    <h1>Showing a playlist mosaic image</h1>
+    <p class="description">Given a playlist URI, we can show the mosaic image.</p>
+
+    <h3>The Javascript</h3>
+    <div id="js"></div>
+
+    <h3>The HTML</h3>
+    <div id="html"></div>
+
+    <h3>Live Example</h3>
+    <div class="html-snippet" data-container="html">
+        <div id="image"></div>
+    </div>
+    <script type="script/snippet" data-container="js">
+        var sp = getSpotifyApi();
+        var models = sp.require("$api/models");
+        var views = sp.require("$api/views");
+
+        var playlistURL = 'spotify:user:magerleagues:playlist:5CZ3KO3EExplZOzHDMzgym';
+        var playlist = models.Playlist.fromURI(playlistURL);
+        var imageHTML = document.getElementById('image');
+
+        // Make the playlist mosaic image view
+        var mosaic = new views.Image(playlist.image);
+        mosaic.node.style.width = '300px';
+        mosaic.node.style.height = '300px';
+        mosaic.node.style.backgroundSize = 'cover';
+        imageHTML.appendChild(mosaic.node);
+    </script>
+</div>
