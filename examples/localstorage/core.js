@@ -75,6 +75,10 @@ Spotify.Example = (function(namespace) {
         },
 
         /**
+         * Another alternative would be to use window.performance to measure the time,
+         * but that would require to send 2 notifications through local storage.
+         * performance.now is more accurate, but it counts the time only since the current page started.
+         *
          * @method _getTimestamp
          * @public
          */
