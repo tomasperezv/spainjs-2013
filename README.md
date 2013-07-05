@@ -8,6 +8,11 @@ Hybrid apps is a hot topic nowadays, and we will explain how our architecture ab
 
 In the second part of the talk we will describe the architecture of the Spotify Embedded Platform, that allows external developers to include spotify entities inside their webpages, including a technology for remote controlling spotify clients, the webplayer and the desktop client.
 
+Slides
+======
+[Slide share] (http://www.slideshare.net/tomasperezv/spotify-presentation-spainjs2013)  
+(Or check the included pdf file)
+
 Authors
 =======
 [@JMPerez] (https://github.com/JMPerez)  
