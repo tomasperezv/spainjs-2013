@@ -8,7 +8,7 @@ Code examples:
 ./post-messages/ postMessage jsperf test case
 
 
-Note: remember to initialize the git submodule to have access to the 'Spotify App example':
+Note: remember to initialize the git submodule, from the parent folder, to have access to the 'Spotify App example':
  ```bash
  git submodule update --init
  ```
