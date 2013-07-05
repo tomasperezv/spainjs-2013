@@ -25,3 +25,8 @@ Reference
 [window.postMessage mozilla documentation] (https://developer.mozilla.org/en-US/docs/Web/API/window.postMessage)  
 [Chrome prerender] (https://developers.google.com/chrome/whitepapers/prerender)  
 [Firefox prefetch] (https://developer.mozilla.org/en/Link_prefetching_FAQ)  
+
+JSPerf
+======
+[Using Iframes Springly] (http://www.stevesouders.com/blog/2009/06/03/using-iframes-sparingly/)  
+[Updated JSPerf about IFrames performance] (http://jsperf.com/time-to-create-elements)  
