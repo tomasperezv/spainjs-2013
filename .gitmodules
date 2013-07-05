@@ -1,3 +1,6 @@
 [submodule "examples/spotify-apps-tutorial"]
 	path = examples/spotify-apps-tutorial
 	url = git@github.com:spotify/apps-tutorial.git
+[submodule "examples/boilerplate-app"]
+	path = examples/boilerplate-app
+	url = git@github.com:spotify/boilerplate-app.git
