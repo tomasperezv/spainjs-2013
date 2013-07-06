@@ -32,3 +32,5 @@ Reference
 [Firefox prefetch] (https://developer.mozilla.org/en/Link_prefetching_FAQ)  
 [Using Iframes Sparingly] (http://www.stevesouders.com/blog/2009/06/03/using-iframes-sparingly/)  
 [Updated JSPerf about IFrames performance] (http://jsperf.com/time-to-create-elements)  
+[HTML5 Sandboxed IFrames] (http://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/)  
+
